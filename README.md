@@ -1,13 +1,34 @@
 
-### Hi there. we are black fingers team
+# Hi there. we are black fingers team
 Here is the Youtube video link for the Robot → https://youtu.be/Kr0BLmSGszo
 
-### The components of the robot
+# let us explain to you the strategy for our robot in the game play:
+ As the game starts the robot start using the ultrasonicthe besides the wall ( if it is the right of left ultrasonic ) to track the wall with no friction with the wall. So he moves away to the right or left side the ultrasonic reads that the robot is getting away from the wall so the ultrasonic sends an order to the Arduino to get closer to the wall. Briefly the three Ultrasonics in the front of the robot should keep the robot steady and keep the robot in the middle. When the robot sees the blue line the huskylens will send an order to the Arduino to go forward and then turn 90° digree to the left and then go back for a second and complete the loop repeating this method and if the robot faced a green pillar the huskylens will also send an order to the Arduino to complete it way on the left side of the pillar. And the robot faced a red pillar the robot will complete it way on the right side of the pillar also using the huskylens. Like that the robot will complete it three rounds reading all the blue lines three times and then stop where he started.
+
+# How to use your Arduino Mega 2560 on the Arduino Desktop IDE
+If you want to program your Arduino Mega 2560 while offline you need to install the Arduino Desktop IDE
+## Connect your board
+Connect your Mega2560 board with an A B USB cable; sometimes this cable is called a USB printer cable
+The USB connection with the PC is necessary to program the board and not just to power it up. The Mega2560 automatically draw power from either the USB or an external power supply. Connect the board to your computer using the USB cable. The green power LED (labelled PWR) should go on.
+## Open your first sketch
+Open the LED blink example sketch: File > Examples >01.Basics > Blink.
+## Select your board type and port
+You'll need to select the entry in the Tools > Board menu that corresponds to your Arduino board. You have a Mega2560, therefore it has an ATmega2560 microcontroller, selected by default as processor.
+## Select your board type and port
+You'll need to select the entry in the Tools > Board menu that corresponds to your Arduino board. You have a Mega2560, therefore it has an ATmega2560 microcontroller, selected by default as processor.
+## Upload the program
+Now, simply click the "Upload" button in the environment. Wait a few seconds - you should see the RX and TX leds on the board flashing. If the upload is successful, the message "Done uploading." will appear in the status bar.
+A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange). If it does, congratulations! Your board is up-and-running.
+
+#The program
+all of our source codes are in the src directory
+
+# The components of the robot
 The robot's components are:
 ### 1-The Arduino Mega 2560
 is the microcontroller board and can be named as the ATMega2560. In the Arduino mega it can have high memory space compared to the Arduino Uno. 
 It can have the 54 digital pins for the input/output pin. In the 54 pins, the 15 pins can be used as the Pulse Width Modulation (PWM). On the analog side it can have the 16 input pins.
-Components in Arduino Mega2560:
+#### Components in Arduino Mega2560:
 16MHZ crystal oscillator
 USB cable port
 Reset button
@@ -20,26 +41,23 @@ Both supplies are having the values of 07-12v.
 Vin: An input power can be in the external power of the range. We can supply power through the power jack or USB cables.
 Gnd: It can be connected to the gnd to gnd of the connection.
 ### 2-Huskylens
-the robot's vision sensor with 7 built-in functions: face recognition, object tracking, object recognition, line tracking, color recognition, tag recognition and object classification. Through the UART / I2C port, HuskyLens can connect to Arduino and micro:bit to help you make very creative projects without playing with complex algorithms. It allows the robot to see the pillars on the game board. if it's red the robot should turn to the right side of the pillar. and if it's a green pillar the robot should turn to the left side of the pillar.
+the robot's vision sensor with 7 built-in functions: face recognition, object tracking, object recognition, line tracking, color recognition, tag recognition and object classification.
+Through the UART / I2C port, HuskyLens can connect to Arduino and micro:bit to help you make very creative projects without playing with complex algorithms. It allows the robot to see the pillars on the game board. if it's red the robot should turn to the right side of the pillar. and if it's a green pillar the robot should turn to the left side of the pillar.
 Specification:
 Processor: Kendryte K210
-Image Sensor:
+#### Image Sensor:
 SEN0305 HuskyLens: OV2640 (2.0Megapixel Camera)
 SEN0336 HuskyLens PRO: OV5640 (5.0MegaPixel Camera)
 Supply Voltage: 3.3~5.0V
-Current Consumption(TYP): 3 2 0 m A @ 3.3V, 2 3 0 m A @ 5.0V (face recognition mode; 80% backlight brightness; fill light off)
 Communication Port: UART; I2C
-Display: 2.0-inch IPS screen with 320*240 resolution
 Built-in Algorithms: Face Recognition, Object Tracking, Object Recognition, Line Tracking, Color Recognition, Tag Recognition, Object Classification
-Dimension: 52mm x 44.5mm (2.05*1.75 inch） 
 Connectors:
 USB Connector: power supply for Huskylens; connect to the computer to upgrade the firmware
 4pin Connector in UART Mode
 4pin Connector in I2C Mode
 There are two buttons on the HuskyLens, the function button and the learning button. The basic operations of these two buttons are shown as follows:
 Dial the "function button" to left or right to switch different functions.
-Short press the "Learning button" to learn the specified object; long press the "Learning button" to continuously learn the specified object from different angles and distances; if HuskyLens has learned the object before, short press the "Learn button" to make it forget.
-Long press the "function button" to enter into the second-level menu (parameter setting) in the current function. Dial left, right or short press the "function button" to set related parameters.
+
 ### 3- Ultrasonic Sensor HC-SR04
 is a sensor that can measure distance. It emits an ultrasound at 40 000 Hz (40kHz) which travels through the air and if there is an object or obstacle on its path It will bounce back to the module. Considering the travel time and the speed of the sound you can calculate the distance. It makes sure that the robot does not bump into anything around it, So it should keep distance between the robot and anything around it, We actually used three ultra sonics in our robot so it can allow the robot to see any obstacle to it right, front and left.
 ###4- 
@@ -58,5 +76,3 @@ We used two batteries that gives us seven volts in total.
 We used the laser cutter to make one of the important pieces of the robot and we put it under the robot to hold the tires ( We will put a pdf for the piece in our profile ).
 ### 10- the switches 
 there are two switches in the robot one to turn the robot on and off, and the other one is to let the robot start the game.
-### Now let us explain to you the strategy for our robot in the game play:
- As the game starts the robot start using the ultrasonicthe besides the wall ( if it is the right of left ultrasonic ) to track the wall with no friction with the wall. So he moves away to the right or left side the ultrasonic reads that the robot is getting away from the wall so the ultrasonic sends an order to the Arduino to get closer to the wall. Briefly the three Ultrasonics in the front of the robot should keep the robot steady and keep the robot in the middle. When the robot sees the blue line the huskylens will send an order to the Arduino to go forward and then turn 90° digree to the left and then go back for a second and complete the loop repeating this method and if the robot faced a green pillar the huskylens will also send an order to the Arduino to complete it way on the left side of the pillar. And the robot faced a red pillar the robot will complete it way on the right side of the pillar also using the huskylens. Like that the robot will complete it three rounds reading all the blue lines three times and then stop where he started.
