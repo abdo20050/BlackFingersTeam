@@ -5,22 +5,18 @@ Here is the Youtube video link for the Robot → https://youtu.be/Kr0BLmSGszo
 # let us explain to you the strategy for our robot in the game play:
  As the game starts the robot start using the ultrasonicthe besides the wall ( if it is the right or left ultrasonic ) to track the wall with no friction with the wall. So he moves away to the right or left side the ultrasonic reads that the robot is getting away from the wall so the ultrasonic sends an order to the Arduino to get closer to the wall. Briefly the three Ultrasonics in the front of the robot should keep the robot steady and keep the robot in the middle. When the robot sees the blue line the huskylens will send an order to the Arduino to go forward and then turn 90° digree to the left and then go back for a second and complete the loop repeating this method and if the robot faced a green pillar the huskylens will also send an order to the Arduino to complete it way on the left side of the pillar. And if the robot faced a red pillar the robot will complete it way on the right side of the pillar also using the huskylens. Like that the robot will complete it three rounds reading all the blue lines three times and then stop where he started.
 
-# How to use your Arduino Mega 2560 on the Arduino Desktop IDE
-If you want to program your Arduino Mega 2560 while offline you need to install the Arduino Desktop IDE
-## Connect your board
-Connect your Mega2560 board with an A B USB cable; sometimes this cable is called a USB printer cable
-The USB connection with the PC is necessary to program the board and not just to power it up. The Mega2560 automatically draw power from either the USB or an external power supply. Connect the board to your computer using the USB cable. The green power LED (labelled PWR) should go on.
-## Open your first sketch
-Open the LED blink example sketch: File > Examples >01.Basics > Blink.
-## Select your board type and port
-You'll need to select the entry in the Tools > Board menu that corresponds to your Arduino board. You have a Mega2560, therefore it has an ATmega2560 microcontroller, selected by default as processor.
-## Select your board type and port
-You'll need to select the entry in the Tools > Board menu that corresponds to your Arduino board. You have a Mega2560, therefore it has an ATmega2560 microcontroller, selected by default as processor.
-## Upload the program
-Now, simply click the "Upload" button in the environment. Wait a few seconds - you should see the RX and TX leds on the board flashing. If the upload is successful, the message "Done uploading." will appear in the status bar.
-A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange). If it does, congratulations! Your board is up-and-running.
+# How to use arduino uno:
 
-#The program
+Once the circuit has been created on the breadboard, you’ll need to upload the program (known as a sketch) to the Arduino.  The sketch is a set of instructions that tells the board what functions it needs to perform. An Arduino board can only hold and perform one sketch at a time.  The software used to create Arduino sketches is called the IDE which stands for Integrated Development Environment.  The software is free to download and can be found at https://www.arduino.cc/en/Main/Software
+
+Every Arduino sketch has two main parts to the program:
+
+void setup() – Sets things up that have to be done once and then don’t happen again.
+
+void loop()  – Contains the instructions that get repeated over and over until the board is turned off.
+
+
+# The program
 all of our source codes are in the src directory
 
 # The components of the robot
