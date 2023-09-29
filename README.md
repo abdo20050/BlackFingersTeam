@@ -8,10 +8,13 @@ when the game begins, the robot relies on its Gyro balance sensor to maintain st
 In essence, these front-facing ultrasonic sensors play a crucial role in ensuring the robot's stability and keeping it at a safe distance from obstacles. When the robot identifies a blue line via Huskylens, it constructs the Arduino to move forward, make a precise 90-degree left turn, and continue this pattern, effectively completing a loop. Simultaneously, as Huskylens detects the blue line, the Pixy camera, mounted on a servo, turns left by 90 degrees to focus on the column located on the left-hand side.
 
 If Pixy encounters a green column, it commands the Arduino to execute an immediate left turn to navigate around the green obstacle. Similarly, when facing a red column, Pixy instructs the Arduino to move forward, creating an ample distance, and then initiating a left turn to navigate the right-hand side of the red column. This process repeats continuously, allowing the robot to complete three rounds, scanning all blue lines thrice before coming to a stop at its initial position.
-# How to use arduino uno:
+# How to use arduino mega 2560:
 
-Once the circuit has been created on the breadboard, you’ll need to upload the program (known as a sketch) to the Arduino.  The sketch is a set of instructions that tells the board what functions it needs to perform. An Arduino board can only hold and perform one sketch at a time.  The software used to create Arduino sketches is called the IDE which stands for Integrated Development Environment.  The software is free to download and can be found at https://www.arduino.cc/en/Main/Software
+arduino Mega 2560 is a development electronic board based on the Atmega2560 microcontroller.
 
+This board is a good match for projects that require more GPIO pins and memory space because it carries 16 analog pins and 54 digital I/O pins out of which 15 pins are used for PWM output.
+
+The board comes with a DC power jack to power up this unit and you can also turn on the board using VIN pin on the board. The unit also supports a USB interface where a USB cable is used to connect the board with the computer.
 Every Arduino sketch has two main parts to the program:
 
 void setup() – Sets things up that have to be done once and then don’t happen again.
