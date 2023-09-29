@@ -10,17 +10,20 @@ In essence, these front-facing ultrasonic sensors play a crucial role in ensurin
 If Pixy encounters a green column, it commands the Arduino to execute an immediate left turn to navigate around the green obstacle. Similarly, when facing a red column, Pixy instructs the Arduino to move forward, creating an ample distance, and then initiating a left turn to navigate the right-hand side of the red column. This process repeats continuously, allowing the robot to complete three rounds, scanning all blue lines thrice before coming to a stop at its initial position.
 # How to use arduino mega 2560:
 
-arduino Mega 2560 is a development electronic board based on the Atmega2560 microcontroller.
+We can program the Arduino Mega using the Arduino IDE. We need to install the Arduino IDE software to get started with the process.
 
-This board is a good match for projects that require more GPIO pins and memory space because it carries 16 analog pins and 54 digital I/O pins out of which 15 pins are used for PWM output.
+ We can also use Arduino Web Editor, which allows us to upload sketches and write the code from our web browser (Google Chrome recommended) to any Arduino Board. It is an online platform.
+The USB cable is crucial for the connection between the board and the computer. The green LED will light, which indicates the successful connection between the computer and the board.
 
-The board comes with a DC power jack to power up this unit and you can also turn on the board using VIN pin on the board. The unit also supports a USB interface where a USB cable is used to connect the board with the computer.
-Every Arduino sketch has two main parts to the program:
+The steps to get started with Arduino Mega are listed below:
 
-void setup() – Sets things up that have to be done once and then don’t happen again.
+Open the code or sketch written in the Arduino software.
+Select the type of board.
+The ATmega2560 microcontroller is used in the Arduino Mega. So, we will select the Processor as ATmega2560.
+As we select the board, the processor is automatically selected by default.
 
-void loop()  – Contains the instructions that get repeated over and over until the board is turned off.
-
+For more details on how to use the Arduino, visit the website
+https://www.arduino.cc/en/Guide/ArduinoMega2560/
 
 # The program
 all of our source codes are in the src directory
