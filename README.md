@@ -61,7 +61,7 @@ This module uses two techniques for the control speed and rotation direction of 
 is a rectangular plastic board with a bunch of tiny holes in it. These holes let you easily insert electronic components to prototype (meaning to build and test an early version of an electronic circuit). it allows us to make our electrical circuits that transmit movement through the robot.
 ### 8- Batteries
 We used two batteries that gives us seven volts in total.
-### 9- Laser cutter
-We used the laser cutter to make one of the important pieces of the robot and we put it under the robot to hold the tires ( We will put a pdf for the piece in our profile ).
+### 9- cnc machine
+sing a laser machine to cut acrylic to produce several parts, the most important of which are engine gears ( We will put a pdf for the piece in our profile ).
 ### 10- the switches 
 there are two switches in the robot one to turn the robot on and off, and the other one is to let the robot start the game.
