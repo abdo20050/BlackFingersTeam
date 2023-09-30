@@ -68,8 +68,17 @@ is a rotary actuator that allows for precise control of angular position, veloci
 is a controller that uses an H-Bridge to easily control the direction and speed of up to 2 DC motors. it is the mediator between the Arduino and the motors, So any command from the Arduino the motor drive should delivers it to the motors.
 How Motor Driver Module Works:
 This module uses two techniques for the control speed and rotation direction of the DC motors. These are H-Bridge – For controlling rotation direction and PWM – For controlling the speed.
-### 7- A breadboard 
-is a rectangular plastic board with a bunch of tiny holes in it. These holes let you easily insert electronic components to prototype (meaning to build and test an early version of an electronic circuit). it allows us to make our electrical circuits that transmit movement through the robot.
+### 7- A pixy camera 
+The Pixy camera is a complete vision system with an image sensor and a microprocessor. It includes learning algorithms and detection of colour, line, intersection and small barcode. It includes all the technology necessary for visual recognition.
+
+Technical specifications
+
+Processor: NXP LPC4330, 204 MHz, dual core
+Image Sensor: Aptina MT9M114, 1296×976 resolution with integrated image stream processor
+Power consumption: 140 mA typical
+Power consumption: USB input (5V) or unregulated input (6V to 10V)
+Available data: UART serial, SPI, I2C, USB, digital, analog
+
 ### 8- Batteries
 We used two batteries that gives us seven volts in total.
 ### 9- CNC machine
