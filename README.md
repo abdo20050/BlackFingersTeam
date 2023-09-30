@@ -79,8 +79,10 @@ Power consumption: 140 mA typical
 Power consumption: USB input (5V) or unregulated input (6V to 10V)
 Available data: UART serial, SPI, I2C, USB, digital, analog
 
-### 8- Batteries
-We used two batteries that gives us seven volts in total.
+### 8- Gyro Sensor ( MPU6050)
+The MPU6050 IMU has both 3-Axis accelerometer and 3-Axis gyroscope integrated on a single chip.
+
+The gyroscope measures rotational velocity or rate of change of the angular position over time, along the X, Y and Z axis. It uses MEMS technology and the Coriolis Effect for measuring, but for more details on it you can check my particular How MEMS Sensors Work tutorial. The outputs of the gyroscope are in degrees per second, so in order to get the angular position we just need to integrate the angular velocity.
 ### 9- CNC machine
 sing a laser machine to cut acrylic to produce several parts, the most important of which are engine gears ( We will put a pdf for the piece in our profile ).
 ### 10- the switches 
