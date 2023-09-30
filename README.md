@@ -86,8 +86,12 @@ The gyroscope measures rotational velocity or rate of change of the angular posi
 ### 9- CNC machine
 sing a laser machine to cut acrylic to produce several parts, the most important of which are engine gears ( We will put a pdf for the piece in our profile ).
 ### 10- RPLIDAR 
+
 RPLIDAR A1 is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by SLAMTEC. The system can perform 360degree scan within 6meter range. The produced 2D point cloud data can be used in mapping, localization and object/environment modeling.
  
 RPLIDAR A1’s scanning frequency reached 5.5 hz when sampling 360 points each round. And it can be configured up to 10 hz maximum. 
  
 RPLIDAR A1 is basically a laser triangulation measurement system. It can work excellent in all kinds of indoor environment and outdoor environment without sunlight.
+
+### 11- DC MOTOR
+DC motor or direct current motor is an electrical machine that transforms electrical energy into mechanical energy by creating a magnetic field that is powered by direct current. When a DC motor is powered, a magnetic field is created in its stator. The field attracts and repels magnets on the rotor; this causes the rotor to rotate. To keep the rotor continually rotating, the commutator that is attached to brushes connected to the power source supply current to the motors wire windings.
