@@ -85,5 +85,9 @@ The MPU6050 IMU has both 3-Axis accelerometer and 3-Axis gyroscope integrated on
 The gyroscope measures rotational velocity or rate of change of the angular position over time, along the X, Y and Z axis. It uses MEMS technology and the Coriolis Effect for measuring, but for more details on it you can check my particular How MEMS Sensors Work tutorial. The outputs of the gyroscope are in degrees per second, so in order to get the angular position we just need to integrate the angular velocity.
 ### 9- CNC machine
 sing a laser machine to cut acrylic to produce several parts, the most important of which are engine gears ( We will put a pdf for the piece in our profile ).
-### 10- the switches 
-there are two switches in the robot one to turn the robot on and off, and the other one is to let the robot start the game.
+### 10- RPLIDAR 
+RPLIDAR A1 is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by SLAMTEC. The system can perform 360degree scan within 6meter range. The produced 2D point cloud data can be used in mapping, localization and object/environment modeling.
+ 
+RPLIDAR A1’s scanning frequency reached 5.5 hz when sampling 360 points each round. And it can be configured up to 10 hz maximum. 
+ 
+RPLIDAR A1 is basically a laser triangulation measurement system. It can work excellent in all kinds of indoor environment and outdoor environment without sunlight.
