@@ -99,3 +99,12 @@ rotate. To keep the rotor continually rotating, the commutator that is attached 
 
 ### 12- 3D PRINTER 
 We used a 3D machine to make the entire robot structure, in addition to its cover, camera holder, ultrasonic sensor box, and other pieces.
+
+### 13- Batteries
+We used 4 batteries that gives us 12 volts in total.
+
+### 14- voltage regulator
+voltage regulator is a circuit that creates and maintains a fixed output voltage, irrespective of changes to the input voltage or load conditions. Voltage regulators (VRs) keep the voltages from a power supply within a range that is compatible with the other electrical components. While voltage regulators are most commonly used for DC/DC power conversion, some can perform AC/AC or AC/DC power conversion as well
+
+### 15- the switches
+there are two switches in the robot one to turn the robot on and off, and the other one is to let the robot start the game.
