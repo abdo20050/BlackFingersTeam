@@ -99,7 +99,7 @@ rotate. To keep the rotor continually rotating, the commutator that is attached 
 
 ### 12- 3D PRINTER 
 We used a 3D machine to make the entire robot structure, in addition to its cover, camera holder, ultrasonic sensor box, and other pieces.
-![models](3D ultrasonic box.jpeg)
+![models](3D Robot case.jpeg)
 ### 13- Batteries
 We used 4 batteries that gives us 12 volts in total.
 
