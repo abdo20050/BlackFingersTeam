@@ -59,6 +59,7 @@ There are two buttons on the HuskyLens, the function button and the learning but
 Dial the "function button" to left or right to switch different functions.
 
 ### 3- Ultrasonic Sensor HC-SR04
+![UP SIDE](https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/5ef0a53a-1ccd-4f27-abd9-e9cb7e05f7df)
 is a sensor that can measure distance. It emits an ultrasound at 40 000 Hz (40kHz) which travels through the air and if there is an object or obstacle on its path It will bounce back to the module. Considering the travel time and the speed of the sound you can calculate the distance. It makes sure that the robot does not bump into anything around it, So it should keep distance between the robot and anything around it, We actually used three ultra sonics in our robot so it can allow the robot to see any obstacle to it right, front and left.
 ###4- 
 DC Motors, Obviously so the robot can move, We used two motor and we placed them under the robot next to the tires and it rotates in the same direction they go forward together and go back together.
