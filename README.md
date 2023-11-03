@@ -1,7 +1,6 @@
 
 # Hi there. we are black fingers team
 Here is the Youtube video link for the Robot → [https://youtu.be/Kr0BLmSGszo](https://youtu.be/Sl1KqG20jyE?si=mnz6BM_O7H6PnRAk)
-
 # let us explain to you the strategy for our robot in the game play:
 When the game starts, the robot uses the balance sensor (Gyro) to reset the balance (Reset) to maintain the robot’s balance while walking forward and turning right or left.  Using the three (ultrasonic) sensors installed in the front of the robot.
 These sensors prevent the robot from colliding with the right and left walls or columns.
