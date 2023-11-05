@@ -61,11 +61,12 @@ USB Connector: power supply for Huskylens; connect to the computer to upgrade th
 There are two buttons on the HuskyLens, the function button and the learning button. The basic operations of these two buttons are shown as follows:
 Dial the "function button" to left or right to switch different functions.
 
-### 3- Ultrasonic Sensor HC-SR04
+### 3- 3D PRINTER 
+We used AutoDesk Inventor to design the robot and then used a 3D printer to print the parts, in addition to its cover, camera holder, ultrasonic sensor box, and other pieces.
+You can see more details by visiting the( Models) file on our page
 
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/a71edad8-dc59-48dd-a8d5-0bcfe5dc5174" width="250" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/41f31f25-3ee4-48a8-ba89-fbfb3fcbb8c6" width="350" height="200">
 
-is a sensor that can measure distance. It emits an ultrasound at 40 000 Hz (40kHz) which travels through the air and if there is an object or obstacle on its path It will bounce back to the module. Considering the travel time and the speed of the sound you can calculate the distance. It makes sure that the robot does not bump into anything around it, So it should keep distance between the robot and anything around it, We actually used three ultra sonics in our robot so it can allow the robot to see any obstacle to it right, front and left.
 ###4- 
 DC Motors, Obviously so the robot can move, We used two motor and we placed them under the robot next to the tires and it rotates in the same direction they go forward together and go back together.
 ### 5- Servo
@@ -99,10 +100,16 @@ Available data: UART serial, SPI, I2C, USB, digital, analog
 ### 8- Gyro Sensor ( MPU6050)
 The MPU6050 IMU has both 3-Axis accelerometer and 3-Axis gyroscope integrated on a single chip.
 
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/fc1f5285-7a52-44e3-9dc5-29e5ce25c501" width="200" height="200">
+
+
 The gyroscope measures rotational velocity or rate of change of the angular position over time, along the X, Y and Z axis. It uses MEMS technology and the Coriolis Effect for measuring, but for more details on it you can check my particular How MEMS Sensors Work tutorial. The outputs of the gyroscope are in degrees per second, so in order to get the angular position we just need to integrate the angular velocity.
 ### 9- CNC machine
 sing a laser machine to cut acrylic to produce several parts, the most important of which are engine gears ( We will put a pdf for the piece in our profile ).
 ### 10- RPLIDAR 
+
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/abd53e47-6698-4d59-bbd4-3072d9cd8187" width="200" height="200">
+
 
 RPLIDAR A1 is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by SLAMTEC. The system can perform 360degree scan within 6meter range. The produced 2D point cloud data can be used in mapping, localization and object/environment modeling.
  
@@ -111,18 +118,27 @@ RPLIDAR A1’s scanning frequency reached 5.5 hz when sampling 360 points each r
 RPLIDAR A1 is basically a laser triangulation measurement system. It can work excellent in all kinds of indoor environment and outdoor environment without sunlight.
 
 ### 11- DC MOTOR
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/9c0ccd95-5121-47db-ae22-3debc26a181f" width="200" height="200">
+
+
 DC motor or direct current motor is an electrical machine that transforms electrical energy into mechanical energy by creating a magnetic field that is powered by direct current. When a DC motor is powered, a magnetic field is created in its stator. The field attracts and repels magnets on the rotor; this causes the rotor to 
 rotate. To keep the rotor continually rotating, the commutator that is attached to brushes connected to the power source supply current to the motors wire windings.
 
-### 12- 3D PRINTER 
-We used AutoDesk Inventor to design the robot and then used a 3D printer to print the parts, in addition to its cover, camera holder, ultrasonic sensor box, and other pieces.
+### 12-  Ultrasonic Sensor HC-SR04
 
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/41f31f25-3ee4-48a8-ba89-fbfb3fcbb8c6" width="300" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/a71edad8-dc59-48dd-a8d5-0bcfe5dc5174" width="250" height="200">
+
+is a sensor that can measure distance. It emits an ultrasound at 40 000 Hz (40kHz) which travels through the air and if there is an object or obstacle on its path It will bounce back to the module. Considering the travel time and the speed of the sound you can calculate the distance. It makes sure that the robot does not bump into anything around it, So it should keep distance between the robot and anything around it, We actually used three ultra sonics in our robot so it can allow the robot to see any obstacle to it right, front and left.
 
 ### 13- Batteries
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/6d395437-2d42-4b0b-b4ae-2b270faea016" width="200" height="200">
+
 We used 4 batteries that gives us 12 volts in total.
 
 ### 14- voltage regulator
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/eb1e6e30-84e5-465f-a3e9-c0b56981f379" width="200" height="200">
+
+
 voltage regulator is a circuit that creates and maintains a fixed output voltage, irrespective of changes to the input voltage or load conditions. Voltage regulators (VRs) keep the voltages from a power supply within a range that is compatible with the other electrical components. While voltage regulators are most commonly used for DC/DC power conversion, some can perform AC/AC or AC/DC power conversion as well
 
 ### 15- the switches
