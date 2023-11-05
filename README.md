@@ -69,7 +69,14 @@ is a sensor that can measure distance. It emits an ultrasound at 40 000 Hz (40kH
 ###4- 
 DC Motors, Obviously so the robot can move, We used two motor and we placed them under the robot next to the tires and it rotates in the same direction they go forward together and go back together.
 ### 5- Servo
+
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/7ccae9d6-95fd-4b17-8b9c-f1bdf5028fc8" width="200" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/3f4a3449-7941-4453-891b-39c6bac1c16e" width="200" height="200">
+
 is a rotary actuator that allows for precise control of angular position, velocity and acceleration. it controls the robot's movement horizontally.
+We used two types of servo: two MG90s work to move the wheels and move the camera up and down, and one MG995 works to move the camera left and right.
+
+
 ### 6- The L298N Motor Driver
 is a controller that uses an H-Bridge to easily control the direction and speed of up to 2 DC motors. it is the mediator between the Arduino and the motors, So any command from the Arduino the motor drive should delivers it to the motors.
 How Motor Driver Module Works:
