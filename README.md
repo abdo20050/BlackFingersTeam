@@ -12,7 +12,6 @@ When the robot sees the blue line, huskylens will send a command to the Arduino 
  
  Turn left to complete the path on the (right) side of the red column, and this method is repeated continuously. Thus, the robot will complete three rounds, reading all the blue lines three times, then stop where it started
 # How to use arduino mega 2560:
-
 We can program the Arduino Mega using the Arduino IDE. We need to install the Arduino IDE software to get started with the process.
 
  We can also use Arduino Web Editor, which allows us to upload sketches and write the code from our web browser (Google Chrome recommended) to any Arduino Board. It is an online platform.
@@ -34,12 +33,17 @@ all of our source codes are in the src directory
 # The components of the robot
 The robot's components are:
 ### 1-The Arduino mega 2560:
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/1f86272f-cac4-4f5a-8270-d59a7e4507ee" width="200" height="200">
+
+
 Arduino Mega 2560 is a development electronic board based on the Atmega2560 microcontroller.
 
 This board is a good match for projects that require more GPIO pins and memory space because it carries 16 analog pins and 54 digital I/O pins out of which 15 pins are used for PWM output.
 
 The board comes with a DC power jack to power up this unit and you can also turn on the board using VIN pin on the board. The unit also supports a USB interface where a USB cable is used to connect the board with the computer.
 ### 2-Huskylens
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/9b102649-4147-4e67-b892-f9c447208df1" width="200" height="200">
+
 the robot's vision sensor with 7 built-in functions: face recognition, object tracking, object recognition, line tracking, color recognition, tag recognition and object classification.
 Through the UART / I2C port, HuskyLens can connect to Arduino and micro:bit to help you make very creative projects without playing with complex algorithms. It allows the robot to see the pillars on the game board. if it's red the robot should turn to the right side of the pillar. and if it's a green pillar the robot should turn to the left side of the pillar.
 Specification:
@@ -58,6 +62,8 @@ There are two buttons on the HuskyLens, the function button and the learning but
 Dial the "function button" to left or right to switch different functions.
 
 ### 3- Ultrasonic Sensor HC-SR04
+
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/a71edad8-dc59-48dd-a8d5-0bcfe5dc5174" width="250" height="200">
 
 is a sensor that can measure distance. It emits an ultrasound at 40 000 Hz (40kHz) which travels through the air and if there is an object or obstacle on its path It will bounce back to the module. Considering the travel time and the speed of the sound you can calculate the distance. It makes sure that the robot does not bump into anything around it, So it should keep distance between the robot and anything around it, We actually used three ultra sonics in our robot so it can allow the robot to see any obstacle to it right, front and left.
 ###4- 
@@ -98,8 +104,10 @@ DC motor or direct current motor is an electrical machine that transforms electr
 rotate. To keep the rotor continually rotating, the commutator that is attached to brushes connected to the power source supply current to the motors wire windings.
 
 ### 12- 3D PRINTER 
-We used a 3D machine to make the entire robot structure, in addition to its cover, camera holder, ultrasonic sensor box, and other pieces.
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/5ef0a53a-1ccd-4f27-abd9-e9cb7e05f7df" width="300" height="300">
+We used AutoDesk Inventor to design the robot and then used a 3D printer to print the parts, in addition to its cover, camera holder, ultrasonic sensor box, and other pieces.
+
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/41f31f25-3ee4-48a8-ba89-fbfb3fcbb8c6" width="300" height="200">
+
 ### 13- Batteries
 We used 4 batteries that gives us 12 volts in total.
 
