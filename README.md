@@ -104,7 +104,7 @@ The MPU6050 IMU has both 3-Axis accelerometer and 3-Axis gyroscope integrated on
 
 
 The gyroscope measures rotational velocity or rate of change of the angular position over time, along the X, Y and Z axis. It uses MEMS technology and the Coriolis Effect for measuring, but for more details on it you can check my particular How MEMS Sensors Work tutorial. The outputs of the gyroscope are in degrees per second, so in order to get the angular position we just need to integrate the angular velocity.
-### 9- CNC machine
+### 9- laser cutter machine
 sing a laser machine to cut acrylic to produce several parts, the most important of which are engine gears ( We will put a pdf for the piece in our profile ).
 ### 10- RPLIDAR 
 
