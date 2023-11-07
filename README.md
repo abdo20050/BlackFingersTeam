@@ -78,7 +78,7 @@ We used two types of servo: two MG90s work to move the wheels and move the camer
 
 
 ### 6- The L298N Motor Driver
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/12d1ff83-3559-43fc-9a00-99279ced2230" width="250" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/12d1ff83-3559-43fc-9a00-99279ced2230" width="250" height="250">
 
 is a controller that uses an H-Bridge to easily control the direction and speed of up to 2 DC motors. it is the mediator between the Arduino and the motors, So any command from the Arduino the motor drive should delivers it to the motors.
 How Motor Driver Module Works:
