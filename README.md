@@ -33,7 +33,7 @@ all of our source codes are in the src directory
 # The components of the robot
 The robot's components are:
 ### 1-The Arduino mega 2560:
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/d56f7262-33e4-47f9-adc9-c725ba76e818" width="200" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/cc253394-dd0d-40a8-9381-a24596a1a9b3" width="200" height="200">
 
 
 Arduino Mega 2560 is a development electronic board based on the Atmega2560 microcontroller.
@@ -88,7 +88,9 @@ is a controller that uses an H-Bridge to easily control the direction and speed 
 How Motor Driver Module Works:
 This module uses two techniques for the control speed and rotation direction of the DC motors. These are H-Bridge – For controlling rotation direction and PWM – For controlling the speed.
 ### 7- A pixy camera 
-src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/9adc8beb-c427-4bc5-8ec1-7afc271241d6" width="100" height="100"> 
+
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/e3c5ed71-7933-4671-816b-868bc099688f" width="200" height="200">
+
 The Pixy camera is a complete vision system with an image sensor and a microprocessor. It includes learning algorithms and detection of colour, line, intersection and small barcode. It includes all the technology necessary for visual recognition.
 
 Technical specifications
@@ -102,17 +104,18 @@ Available data: UART serial, SPI, I2C, USB, digital, analog
 ### 8- Gyro Sensor ( MPU6050)
 The MPU6050 IMU has both 3-Axis accelerometer and 3-Axis gyroscope integrated on a single chip.
 
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/fc1f5285-7a52-44e3-9dc5-29e5ce25c501" width="200" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/3dd94470-92fa-4fa4-889f-fc19dee7a49b" width="200" height="200">
+
 
 
 The gyroscope measures rotational velocity or rate of change of the angular position over time, along the X, Y and Z axis. It uses MEMS technology and the Coriolis Effect for measuring, but for more details on it you can check my particular How MEMS Sensors Work tutorial. The outputs of the gyroscope are in degrees per second, so in order to get the angular position we just need to integrate the angular velocity.
 ### 9- laser cutter machine
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/69bdc327-c248-4c45-b762-de149ffd27e4" width="300" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/1514ae88-f88f-4c53-ba46-19174716065d" width="320" height="250">
 
 sing a laser machine to cut acrylic to produce several parts, the most important of which are engine gears ( We will put a pdf for the piece in our profile ).
 ### 10- RPLIDAR 
 
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/abd53e47-6698-4d59-bbd4-3072d9cd8187" width="200" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/c5112305-ff7a-448e-b1f7-057f33186a83" width="200" height="200">
 
 
 RPLIDAR A1 is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by SLAMTEC. The system can perform 360degree scan within 6meter range. The produced 2D point cloud data can be used in mapping, localization and object/environment modeling.
@@ -131,17 +134,18 @@ rotate. To keep the rotor continually rotating, the commutator that is attached 
 
 ### 12-  Ultrasonic Sensor HC-SR04
 
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/a71edad8-dc59-48dd-a8d5-0bcfe5dc5174" width="250" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/d70a83bf-37ad-4032-8643-ad07ecfcf170" width="200" height="200">
+
 
 is a sensor that can measure distance. It emits an ultrasound at 40 000 Hz (40kHz) which travels through the air and if there is an object or obstacle on its path It will bounce back to the module. Considering the travel time and the speed of the sound you can calculate the distance. It makes sure that the robot does not bump into anything around it, So it should keep distance between the robot and anything around it, We actually used three ultra sonics in our robot so it can allow the robot to see any obstacle to it right, front and left.
 
 ### 13- Batteries
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/6d395437-2d42-4b0b-b4ae-2b270faea016" width="200" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/8e4d70b1-1a87-4fee-b599-9ecaf987a0f1" width="200" height="200">
 
 We used 4 batteries that gives us 12 volts in total.
 
 ### 14- voltage regulator
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/eb1e6e30-84e5-465f-a3e9-c0b56981f379" width="200" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/7a06f64e-44aa-40fe-ba32-d3a42e8e74a6" width="200" height="200">
 
 
 voltage regulator is a circuit that creates and maintains a fixed output voltage, irrespective of changes to the input voltage or load conditions. Voltage regulators (VRs) keep the voltages from a power supply within a range that is compatible with the other electrical components. While voltage regulators are most commonly used for DC/DC power conversion, some can perform AC/AC or AC/DC power conversion as well
