@@ -33,7 +33,6 @@ all of our source codes are in the src directory
 # The components of the robot
 The robot's components are:
 ### 1-The Arduino mega 2560:
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/1f86272f-cac4-4f5a-8270-d59a7e4507ee" width="200" height="200">
 
 
 Arduino Mega 2560 is a development electronic board based on the Atmega2560 microcontroller.
