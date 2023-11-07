@@ -42,6 +42,7 @@ This board is a good match for projects that require more GPIO pins and memory s
 
 The board comes with a DC power jack to power up this unit and you can also turn on the board using VIN pin on the board. The unit also supports a USB interface where a USB cable is used to connect the board with the computer.
 ### 2-Huskylens
+
 <img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/9b102649-4147-4e67-b892-f9c447208df1" width="200" height="200">
 
 the robot's vision sensor with 7 built-in functions: face recognition, object tracking, object recognition, line tracking, color recognition, tag recognition and object classification.
