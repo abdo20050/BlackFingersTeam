@@ -84,8 +84,7 @@ is a controller that uses an H-Bridge to easily control the direction and speed 
 How Motor Driver Module Works:
 This module uses two techniques for the control speed and rotation direction of the DC motors. These are H-Bridge – For controlling rotation direction and PWM – For controlling the speed.
 ### 7- A pixy camera 
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/33cb5bc7-e2bc-4943-9d10-cb43eaeb7398" width="200" height="200">
-
+src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/9adc8beb-c427-4bc5-8ec1-7afc271241d6" width="100" height="100"> 
 The Pixy camera is a complete vision system with an image sensor and a microprocessor. It includes learning algorithms and detection of colour, line, intersection and small barcode. It includes all the technology necessary for visual recognition.
 
 Technical specifications
