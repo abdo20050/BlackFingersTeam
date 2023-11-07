@@ -64,7 +64,7 @@ Dial the "function button" to left or right to switch different functions.
 
 ### 3- 3D PRINTER 
 
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/41f31f25-3ee4-48a8-ba89-fbfb3fcbb8c6" width="350" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/d2f8d7c0-0c08-48bd-9cf5-978e7f0a1d7a" width="450" height="250">
 
 We used AutoDesk Inventor to design the robot and then used a 3D printer to print the parts, in addition to its cover, camera holder, ultrasonic sensor box, and other pieces.
 You can see more details by visiting the( Models) file on our page
@@ -136,8 +136,8 @@ rotate. To keep the rotor continually rotating, the commutator that is attached 
 
 <img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/d70a83bf-37ad-4032-8643-ad07ecfcf170" width="200" height="200">
 
-
-is a sensor that can measure distance. It emits an ultrasound at 40 000 Hz (40kHz) which travels through the air and if there is an object or obstacle on its path It will bounce back to the module. Considering the travel time and the speed of the sound you can calculate the distance. It makes sure that the robot does not bump into anything around it, So it should keep distance between the robot and anything around it, We actually used three ultra sonics in our robot so it can allow the robot to see any obstacle to it right, front and left.
+We used 5 ultrasonic to make the robot move without colliding with anything and keeping a safe distance between it and the walls..
+  the ultrasonic is a sensor that can measure distance. It emits an ultrasound at 40 000 Hz (40kHz) which travels through the air and if there is an object or obstacle on its path It will bounce back to the module. Considering the travel time and the speed of the sound you can calculate the distance. It makes sure that the robot does not bump into anything around it, So it should keep distance between the robot and anything around it, We actually used three ultra sonics in our robot so it can allow the robot to see any obstacle to it right, front and left.
 
 ### 13- Batteries
 <img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/8e4d70b1-1a87-4fee-b599-9ecaf987a0f1" width="200" height="200">
