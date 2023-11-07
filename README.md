@@ -70,19 +70,19 @@ We used AutoDesk Inventor to design the robot and then used a 3D printer to prin
 You can see more details by visiting the( Models) file on our page
 
 
-###4- 
-DC Motors, Obviously so the robot can move, We used two motor and we placed them under the robot next to the tires and it rotates in the same direction they go forward together and go back together.
+###4- DC moror
 ### 5- Servo
 
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/7ccae9d6-95fd-4b17-8b9c-f1bdf5028fc8" width="200" height="200">
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/3f4a3449-7941-4453-891b-39c6bac1c16e" width="200" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/a26fe7ca-7807-4501-bba9-27d7f1496692" width="200" height="200">
+
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/00cdc6f9-b6f7-495e-a65e-8add3f676a18" width="200" height="200">
 
 is a rotary actuator that allows for precise control of angular position, velocity and acceleration. it controls the robot's movement horizontally.
 We used two types of servo: two MG90s work to move the wheels and move the camera up and down, and one MG995 works to move the camera left and right.
 
 
 ### 6- The L298N Motor Driver
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/12d1ff83-3559-43fc-9a00-99279ced2230" width="250" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/61cf155d-8b27-47fb-aef2-aea075988eb2" width="250" height="200">
 
 is a controller that uses an H-Bridge to easily control the direction and speed of up to 2 DC motors. it is the mediator between the Arduino and the motors, So any command from the Arduino the motor drive should delivers it to the motors.
 How Motor Driver Module Works:
@@ -122,8 +122,9 @@ RPLIDAR A1’s scanning frequency reached 5.5 hz when sampling 360 points each r
 RPLIDAR A1 is basically a laser triangulation measurement system. It can work excellent in all kinds of indoor environment and outdoor environment without sunlight.
 
 ### 11- DC MOTOR
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/9c0ccd95-5121-47db-ae22-3debc26a181f" width="200" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/e1aab8d4-dc11-4511-b0eb-a0d39df0e2ec" width="200" height="200">
 
+DC Motors, Obviously so the robot can move, We used two motor and we placed them under the robot next to the tires and it rotates in the same direction they go forward together and go back together.
 
 DC motor or direct current motor is an electrical machine that transforms electrical energy into mechanical energy by creating a magnetic field that is powered by direct current. When a DC motor is powered, a magnetic field is created in its stator. The field attracts and repels magnets on the rotor; this causes the rotor to 
 rotate. To keep the rotor continually rotating, the commutator that is attached to brushes connected to the power source supply current to the motors wire windings.
