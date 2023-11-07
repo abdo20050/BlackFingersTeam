@@ -62,6 +62,9 @@ There are two buttons on the HuskyLens, the function button and the learning but
 Dial the "function button" to left or right to switch different functions.
 
 ### 3- 3D PRINTER 
+
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/41f31f25-3ee4-48a8-ba89-fbfb3fcbb8c6" width="350" height="200">
+
 We used AutoDesk Inventor to design the robot and then used a 3D printer to print the parts, in addition to its cover, camera holder, ultrasonic sensor box, and other pieces.
 You can see more details by visiting the( Models) file on our page
 
