@@ -65,7 +65,6 @@ Dial the "function button" to left or right to switch different functions.
 We used AutoDesk Inventor to design the robot and then used a 3D printer to print the parts, in addition to its cover, camera holder, ultrasonic sensor box, and other pieces.
 You can see more details by visiting the( Models) file on our page
 
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/41f31f25-3ee4-48a8-ba89-fbfb3fcbb8c6" width="350" height="200">
 
 ###4- 
 DC Motors, Obviously so the robot can move, We used two motor and we placed them under the robot next to the tires and it rotates in the same direction they go forward together and go back together.
