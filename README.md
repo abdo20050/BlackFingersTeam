@@ -43,7 +43,7 @@ This board is a good match for projects that require more GPIO pins and memory s
 The board comes with a DC power jack to power up this unit and you can also turn on the board using VIN pin on the board. The unit also supports a USB interface where a USB cable is used to connect the board with the computer.
 ### 2-Huskylens
 
-<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/9b102649-4147-4e67-b892-f9c447208df1" width="200" height="200">
+<img src="https://github.com/BlackFingerTeam/BlackFingersTeam/assets/115355293/20017d54-0b82-46ad-bf6d-766211448859" width="200" height="200">
 
 the robot's vision sensor with 7 built-in functions: face recognition, object tracking, object recognition, line tracking, color recognition, tag recognition and object classification.
 Through the UART / I2C port, HuskyLens can connect to Arduino and micro:bit to help you make very creative projects without playing with complex algorithms. It allows the robot to see the pillars on the game board. if it's red the robot should turn to the right side of the pillar. and if it's a green pillar the robot should turn to the left side of the pillar.
